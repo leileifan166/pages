@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin:0;
+
+        }
+
+        #hezi{
+            width:500px;
+            height:500px;
+            border:10px solid hotpink;
+            background-color: tomato;
+            float:left;
+            position:relative;
+            
+            
+            
+        
+
+        }
+        #cangcang{
+            width:500px;
+            height:500px;
+            border:10px solid yellowgreen;
+            background-color:violet;
+            float:left;
+    
+            
+        }
+        
+        
+        #ito{
+            width:500px;
+            height:800px;
+            background-color:darkturquoise;
+            border:10px solid red;
+        }
+        #tomo{
+            width:500px;
+            height:800px;
+            background-color: deeppink;
+            border:10px solid blue;
+            position:relative;
+            left:20px;
+            top:-20px;
+
+
+        }
+        .hiro{
+            width:200px;
+            height:200px;
+            background: gold;
+            border:black solid 5px;
+            position:absolute;
+            top:30px;
+            left:20px;
+            z-index:1000;
+
+            
+        }
+        .saru{
+            width:200px;
+            height:200px;
+            background: lawngreen;
+            border:solid blue 5px;
+            position:absolute;
+            top:20px;
+            left:30px;
+            z-index:1001;
+        }
+    </style>
+    
+</head>
+<body>
+    <div id="hezi">
+        <div class="hiro"></div>
+        <div class="saru"></div>
+    </div>
+    <div id="cangcang"></div>
+    <div id="ito"></div>
+    <div id="tomo"></div>
+</body>
+</html>

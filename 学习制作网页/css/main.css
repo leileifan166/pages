@@ -1,0 +1,65 @@
+.header .logo{
+    font-size:larger;
+    background-color:black;
+    color:white;
+    padding:10px;
+}
+.header .nav{
+    background-color:blue;
+    overflow:auto;
+
+}
+.header .nav a{
+    color:white;
+    font-size:17px;
+    padding:10px;
+    float:left;
+    text-decoration: none;
+
+
+}
+
+.header .nav a:hover{
+    background-color:orange;
+
+}
+.header .nav a.index{
+    background-color:orange;
+
+} 
+.main{
+    background-color:lightslategray;
+    padding:10px;
+    font-size:50px;
+    padding-left:20px;
+    border:solid grey;
+    height:600px;
+
+}
+
+img{
+    width:400px;
+
+}
+.footer{
+    background-color:black;
+    padding:10px;
+    font-size:50px;
+    padding-left:20px;
+    border:solid;
+    height:50px;
+}
+a:link{
+    color:lime;
+
+}
+a:visited{
+    color:red;
+}
+a:hover{
+    background-color:purple;
+
+}
+
+
+
